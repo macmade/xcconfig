@@ -22,11 +22,4 @@
 // THE SOFTWARE.
 // -----------------------------------------------------------------------------
 
-#include "Common/Architectures.xcconfig"
-#include "Common/Build-Options.xcconfig"
-#include "Common/Deployment.xcconfig"
-#include "Common/Search-Paths.xcconfig"
-#include "Common/Signing.xcconfig"
-#include "Common/Apple-LLVM.xcconfig"
-#include "Common/Static-Analyzer.xcconfig"
-#include "Common/Swift-Compiler.xcconfig"
+ALWAYS_SEARCH_USER_PATHS = NO

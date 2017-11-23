@@ -23,7 +23,7 @@
 // -----------------------------------------------------------------------------
 
 DEPLOYMENT_LOCATION         = NO
-DEPLOYMENT_POSTPROCESSING   = YES
+DEPLOYMENT_POSTPROCESSING   = NO
 SKIP_INSTALL                = NO
 COPY_PHASE_STRIP            = YES
 STRIP_INSTALLED_PRODUCT     = YES

@@ -22,6 +22,5 @@
 // THE SOFTWARE.
 // -----------------------------------------------------------------------------
 
-CODE_SIGN_IDENTITY  = Mac Developer
 CODE_SIGN_STYLE     = Automatic
 DEVELOPMENT_TEAM    = 326Y53CJMD

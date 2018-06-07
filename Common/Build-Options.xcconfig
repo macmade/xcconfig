@@ -26,3 +26,4 @@ ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES   = NO
 DEBUG_INFORMATION_FORMAT                = dwarf-with-dsym
 COMPILER_INDEX_STORE_ENABLE             = YES
 ENABLE_TESTABILITY                      = NO
+VALIDATE_PRODUCT                        = YES

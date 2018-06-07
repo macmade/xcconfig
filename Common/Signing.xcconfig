@@ -22,5 +22,6 @@
 // THE SOFTWARE.
 // -----------------------------------------------------------------------------
 
-CODE_SIGN_STYLE     = Automatic
-DEVELOPMENT_TEAM    = 326Y53CJMD
+CODE_SIGN_STYLE         = Automatic
+DEVELOPMENT_TEAM        = 326Y53CJMD
+ENABLE_HARDENED_RUNTIME = NO

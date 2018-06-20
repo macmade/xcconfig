@@ -23,7 +23,7 @@
 // -----------------------------------------------------------------------------
 
 SWIFT_DISABLE_SAFETY_CHECKS     = NO
-SWIFT_ENFORCE_EXCLUSIVE_ACCESS  = full
+SWIFT_ENFORCE_EXCLUSIVE_ACCESS  = debug-only
 SWIFT_OPTIMIZATION_LEVEL        = -O
 SWIFT_SWIFT3_OBJC_INFERENCE     = Default
 SWIFT_COMPILATION_MODE          = wholemodule

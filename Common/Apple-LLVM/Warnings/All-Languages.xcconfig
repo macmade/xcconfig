@@ -65,3 +65,4 @@ GCC_WARN_UNUSED_VARIABLE                                = YES
 CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY                 = YES
 CLANG_WARN_PRIVATE_MODULE                               = YES
 CLANG_WARN_PRAGMA_PACK                                  = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER           = YES

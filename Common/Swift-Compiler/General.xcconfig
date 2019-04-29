@@ -23,6 +23,5 @@
 // -----------------------------------------------------------------------------
 
 SWIFT_INSTALL_OBJC_HEADER           = YES
-SWIFT_OBJC_INTERFACE_HEADER_NAME    = -Swift.h
 SWIFT_PRECOMPILE_BRIDGING_HEADER    = YES
 SWIFT_REFLECTION_METADATA_LEVEL     = all

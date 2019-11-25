@@ -22,21 +22,9 @@
 // THE SOFTWARE.
 // -----------------------------------------------------------------------------
 
-CLANG_ENABLE_CODE_COVERAGE          = NO
-GCC_STRICT_ALIASING                 = YES
-GCC_GENERATE_DEBUGGING_SYMBOLS      = YES
-GCC_GENERATE_TEST_COVERAGE_FILES    = NO
-GCC_DYNAMIC_NO_PIC                  = NO
-GCC_INLINES_ARE_PRIVATE_EXTERN      = YES
-GCC_INSTRUMENT_PROGRAM_FLOW_ARCS    = NO
-GCC_ENABLE_KERNEL_DEVELOPMENT       = NO
-LLVM_LTO                            = YES
-GCC_REUSE_STRINGS                   = YES
-GCC_NO_COMMON_BLOCKS                = YES
-GCC_OPTIMIZATION_LEVEL              = s
-GCC_FAST_MATH                       = NO
-GCC_THREADSAFE_STATICS              = YES
-GCC_SYMBOLS_PRIVATE_EXTERN          = YES
-GCC_UNROLL_LOOPS                    = NO
-CLANG_USE_OPTIMIZATION_PROFILE      = NO
-CLANG_TRIVIAL_AUTO_VAR_INIT         = uninitialized
+#include "Debug.xcconfig"
+
+SKIP_INSTALL                    = YES
+STRIP_STYLE                     = "non-global"
+BUILD_LIBRARY_FOR_DISTRIBUTION  = YES
+GCC_SYMBOLS_PRIVATE_EXTERN      = NO

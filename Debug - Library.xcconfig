@@ -28,3 +28,4 @@ SKIP_INSTALL                    = YES
 STRIP_STYLE                     = "non-global"
 BUILD_LIBRARY_FOR_DISTRIBUTION  = YES
 GCC_SYMBOLS_PRIVATE_EXTERN      = NO
+DEFINES_MODULE                  = YES

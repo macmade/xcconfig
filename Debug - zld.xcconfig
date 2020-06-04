@@ -22,21 +22,6 @@
 // THE SOFTWARE.
 // -----------------------------------------------------------------------------
 
-#include "Common.xcconfig"
+#include "Debug.xcconfig"
 
-ONLY_ACTIVE_ARCH                    = YES
-DEBUG_INFORMATION_FORMAT            = dwarf
-DEPLOYMENT_POSTPROCESSING           = NO
-ENABLE_TESTABILITY                  = YES
-DEAD_CODE_STRIPPING                 = NO
-COPY_PHASE_STRIP                    = NO
-CLANG_ENABLE_CODE_COVERAGE          = YES
-GCC_INSTRUMENT_PROGRAM_FLOW_ARCS    = YES
-GCC_GENERATE_TEST_COVERAGE_FILES    = YES
-LLVM_LTO                            = NO
-GCC_OPTIMIZATION_LEVEL              = 0
-ENABLE_NS_ASSERTIONS                = YES
-GCC_PREPROCESSOR_DEFINITIONS        = DEBUG=1
-SWIFT_OPTIMIZATION_LEVEL            = -Onone
-SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
-SWIFT_COMPILATION_MODE              = incremental
+OTHER_LDFLAGS = -fuse-ld=/usr/local/bin/zld -Wl,-no_uuid -Wl,-exported_symbols_list,/dev/null -Wl,-no_deduplicate -Wl,-no_compact_unwind
